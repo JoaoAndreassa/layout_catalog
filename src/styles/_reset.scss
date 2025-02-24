@@ -8,7 +8,7 @@
 .nav {
   display: flex;
   justify-content: center;
-  background: #fff;
+  background: $white-color;
   padding: 15px 0;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .card {
-  background: #fff;
+  background:$white-color;
   padding: 15px;
   border-radius: 8px;
   text-align: center;

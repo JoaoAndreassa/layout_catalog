@@ -1,7 +1,7 @@
 .card {
   width: 200px;
   padding: 32px 16px 16px;
-  background-color: white;
+  background-color: $white-color;
   border: 1px solid $border-color;
   border-radius: 5px;
   text-align: center;
@@ -85,8 +85,8 @@
 
   &__link {
     text-decoration: none;
-    color: #fff;
-    background-color: #00acdc;
+    color:$white-color;
+    background-color: $primary-color;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,7 @@
     display: flex;
 
     &:hover {
-      background-color: white;
+      background-color: $white-color;
       color: $blue-color;
       border: 1px solid $blue-color;
     }
@@ -107,7 +107,7 @@
 
 .card:hover {
   .card__title {
-    color: #34568b;
+    color: $secondary-color;
   }
 }
 

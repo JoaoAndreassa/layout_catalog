@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding-inline: 50px;
-  box-shadow: 0 2px 4px #0000000d;
+  box-shadow: 0 2px 4px ;
 
   .logo {
     height: 40px;
@@ -33,19 +33,19 @@
           height: 60px;
           text-decoration: none;
           display: flex;
-          color: #060b35;
+          color: $blue-nav;
           font-weight: 500;
           margin-left: 20px;
           font-size: 12px;
 
           &.is-active {
             position: relative;
-            color: #00acdc;
+            color: $primary-color;
             margin: 0;
 
             &::after {
               content: '';
-              background-color: #00acdc;
+              background-color: $primary-color;
               border-radius: 8px;
               width: 100%;
               height: 4px;
@@ -57,7 +57,7 @@
           }
 
           &[data-qa='nav-hover']:hover {
-            color: #00acdc;
+            color: $primary-color;
           }
         }
       }
